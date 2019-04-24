@@ -156,6 +156,7 @@ class Vector(object):
 
 if __name__ == "__main__":
 
+    # Test dot & angle_with
     # v = Vector(['7.887', '4.138'])
     # w = Vector(['-8.802', '6.776'])
     # print(v.dot(w))
@@ -172,27 +173,47 @@ if __name__ == "__main__":
     # w = Vector(['2.751', '8.259', '3.985'])
     # print(v.angle_with(w, in_degress=True))
 
-    print("First pair...")
-    v = Vector(['-7.579', '-7.88'])
-    w = Vector(['22.737', '23.64'])
-    print("is parallel:", v.is_parallel_to(w))
-    print("is orthogonal:", v.is_orthogonal_to(w))
 
-    print("Second pair...")
-    v = Vector(['-2.029', '9.97', '4.172'])
-    w = Vector(['-9.231', '-6.639', '-7.245'])
-    print("is parallel:", v.is_parallel_to(w))
-    print("is orthogonal:", v.is_orthogonal_to(w))
+    # Test parallel & orthogonal
+    # print("First pair...")
+    # v = Vector(['-7.579', '-7.88'])
+    # w = Vector(['22.737', '23.64'])
+    # print("is parallel:", v.is_parallel_to(w))
+    # print("is orthogonal:", v.is_orthogonal_to(w))
+    #
+    # print("Second pair...")
+    # v = Vector(['-2.029', '9.97', '4.172'])
+    # w = Vector(['-9.231', '-6.639', '-7.245'])
+    # print("is parallel:", v.is_parallel_to(w))
+    # print("is orthogonal:", v.is_orthogonal_to(w))
+    #
+    # print("Third pair...")
+    # v = Vector(['-2.328', '-7.284', '-1.214'])
+    # w = Vector(['-1.821', '1.072', '-2.94'])
+    # print("is parallel:", v.is_parallel_to(w))
+    # print("is orthogonal:", v.is_orthogonal_to(w))
+    #
+    # print("Fourth pair...")
+    # v = Vector(['2.118', '4.827'])
+    # w = Vector(['0', '0'])
+    # print("is parallel:", v.is_parallel_to(w))
+    # print("is orthogonal:", v.is_orthogonal_to(w))
 
-    print("Third pair...")
-    v = Vector(['-2.328', '-7.284', '-1.214'])
-    w = Vector(['-1.821', '1.072', '-2.94'])
-    print("is parallel:", v.is_parallel_to(w))
-    print("is orthogonal:", v.is_orthogonal_to(w))
+    # Test projection
+    print("#1")
+    v = Vector([3.039, 1.879])
+    w = Vector([0.825, 2.036])
+    print(v.component_parallel_to(w))
 
-    print("Fourth pair...")
-    v = Vector(['2.118', '4.827'])
-    w = Vector(['0', '0'])
-    print("is parallel:", v.is_parallel_to(w))
-    print("is orthogonal:", v.is_orthogonal_to(w))
+    print('\n#2')
+    v = Vector([-9.88, -3.264, -8.159])
+    w = Vector([-2.155, -9.353, -9.473])
+    print(v.component_orthogonal_to(w))
 
+    print('\n#3')
+    v = Vector([3.009, -6.172, 3.692, -2.51])
+    w = Vector([6.404, -9.144, 2.759, 8.718])
+    vpar = v.component_parallel_to(w)
+    vort = v.component_orthogonal_to(w)
+    print("parallel component: ", vpar)
+    print("orthogonal component: ", vort)
