@@ -86,9 +86,9 @@ class Vector(object):
             else:
                 raise e
 
-    # 向量积
+    # 向量积 -输出向量
     def area_of_triangle_with(self, v):
-        return self.area_of_parallelogram_with(v) / Decimal('2.0')
+        return Decimal(self.area_of_parallelogram_with(v)) / Decimal('2.0')
 
     def area_of_parallelogram_with(self, v):
         cross_product = self.cross(v)
@@ -101,7 +101,7 @@ class Vector(object):
             new_coordinates = [ y_1*z_2 - y_2*z_1,
                                 -(x_1*z_2 - x_2*z_1),
                                 x_1*y_2 - x_2*y_1]
-            return new_coordinates
+            return Vector(new_coordinates)
         except ValueError as e:
             msg = str(e)
             if msg == 'need more than 2 values to unpack':
@@ -156,7 +156,7 @@ class Vector(object):
 
 if __name__ == "__main__":
 
-    # Test dot & angle_with
+    ## Test dot & angle_with
     # v = Vector(['7.887', '4.138'])
     # w = Vector(['-8.802', '6.776'])
     # print(v.dot(w))
@@ -174,7 +174,7 @@ if __name__ == "__main__":
     # print(v.angle_with(w, in_degress=True))
 
 
-    # Test parallel & orthogonal
+    ## Test parallel & orthogonal
     # print("First pair...")
     # v = Vector(['-7.579', '-7.88'])
     # w = Vector(['22.737', '23.64'])
@@ -199,21 +199,36 @@ if __name__ == "__main__":
     # print("is parallel:", v.is_parallel_to(w))
     # print("is orthogonal:", v.is_orthogonal_to(w))
 
-    # Test projection
-    print("#1")
-    v = Vector([3.039, 1.879])
-    w = Vector([0.825, 2.036])
-    print(v.component_parallel_to(w))
+    ## Test projection
+    # print("#1")
+    # v = Vector([3.039, 1.879])
+    # w = Vector([0.825, 2.036])
+    # print(v.component_parallel_to(w))
+    #
+    # print('\n#2')
+    # v = Vector([-9.88, -3.264, -8.159])
+    # w = Vector([-2.155, -9.353, -9.473])
+    # print(v.component_orthogonal_to(w))
+    #
+    # print('\n#3')
+    # v = Vector([3.009, -6.172, 3.692, -2.51])
+    # w = Vector([6.404, -9.144, 2.759, 8.718])
+    # vpar = v.component_parallel_to(w)
+    # vort = v.component_orthogonal_to(w)
+    # print("parallel component: ", vpar)
+    # print("orthogonal component: ", vort)
 
-    print('\n#2')
-    v = Vector([-9.88, -3.264, -8.159])
-    w = Vector([-2.155, -9.353, -9.473])
-    print(v.component_orthogonal_to(w))
 
-    print('\n#3')
-    v = Vector([3.009, -6.172, 3.692, -2.51])
-    w = Vector([6.404, -9.144, 2.759, 8.718])
-    vpar = v.component_parallel_to(w)
-    vort = v.component_orthogonal_to(w)
-    print("parallel component: ", vpar)
-    print("orthogonal component: ", vort)
+    ##Test cross
+    v = Vector(['8.462', '7.893', '-8.187'])
+    w = Vector(['6.984', '-5.975', '4.778'])
+    print('#1: ', v.cross(w))
+
+    v = Vector(['-8.987', '-9.838', '5.031'])
+    w = Vector(['-4.268', '-1.861', '-8.866'])
+    print('#2: ', v.area_of_parallelogram_with(w))
+
+    v = Vector(['1.5', '9.547', '3.691'])
+    w = Vector(['-6.007', '0.124', '5.772'])
+    print('#3: ', v.area_of_triangle_with(w))
+
