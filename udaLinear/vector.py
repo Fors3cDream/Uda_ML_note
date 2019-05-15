@@ -86,7 +86,7 @@ class Vector(object):
             else:
                 raise e
 
-    # 向量积 -输出向量
+    # 向量积 - 输出向量
     def area_of_triangle_with(self, v): # 两个向量 三角形面积
         return Decimal(self.area_of_parallelogram_with(v)) / Decimal('2.0')
 
