@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="583d5a59-b31f-4b1a-ac4b-1d91c0b4f685" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PyCodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyCodes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udaLinear/vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/udaLinear/vector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/pandas_csv_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/pandas_csv_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uda_nlp/intro_to_nlp/count_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/uda_nlp/intro_to_nlp/count_words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uda_nlp/intro_to_nlp/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/uda_nlp/intro_to_nlp/input.txt" afterDir="false" />
-    </list>
+    <list default="true" id="583d5a59-b31f-4b1a-ac4b-1d91c0b4f685" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,21 +9,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/100days-of-code-with-python/04-06-collections/movies.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1073" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -48,6 +30,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/udaLinear/vector.py" />
         <option value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab/timing_code.py" />
         <option value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab/command_line_arguments.py" />
         <option value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab/print_functions_for_lab_checks.py" />
@@ -58,35 +41,13 @@
         <option value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab/data_structure.py" />
         <option value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab/check_images_solution.py" />
         <option value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab/check_images.py" />
-        <option value="$PROJECT_DIR$/wechat_robot.py" />
-        <option value="$PROJECT_DIR$/udaLinear/vector.py" />
-        <option value="$PROJECT_DIR$/py3_native/data_structs.py" />
-        <option value="$PROJECT_DIR$/py3_native/Ch01.py" />
-        <option value="$PROJECT_DIR$/py3_native/Ch02.py" />
-        <option value="$PROJECT_DIR$/py3_native/Ch04.py" />
-        <option value="$PROJECT_DIR$/py3_native/ch04_r6_test.py" />
-        <option value="$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/2_class_data.csv" />
-        <option value="$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/pandas_csv_read.py" />
-        <option value="$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/data.csv" />
-        <option value="$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/numpy_solution.py" />
-        <option value="$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/sk_quiz.py" />
-        <option value="$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/sk_solution.py" />
-        <option value="$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/sk_train_and_test_solution.py" />
-        <option value="$PROJECT_DIR$/tornado_mooc/chapter01/__init__.py" />
-        <option value="$PROJECT_DIR$/uda_nlp/intro_to_nlp/input.txt" />
-        <option value="$PROJECT_DIR$/uda_nlp/intro_to_nlp/count_words.py" />
-        <option value="$PROJECT_DIR$/july_finace/gpu_addr.txt" />
-        <option value="$PROJECT_DIR$/100days-of-code-with-python/01-03-datetimes/datetime_date.py" />
-        <option value="$PROJECT_DIR$/100days-of-code-with-python/01-03-datetimes/datetime_timedelta.py" />
-        <option value="$PROJECT_DIR$/100days-of-code-with-python/04-06-collections/collections.ipynb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -101,17 +62,6 @@
               <item name="PyCodes" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCodes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PyCodes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyCodes" type="462c0819:PsiDirectoryNode" />
-              <item name="100days-of-code-with-python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyCodes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyCodes" type="462c0819:PsiDirectoryNode" />
-              <item name="100days-of-code-with-python" type="462c0819:PsiDirectoryNode" />
-              <item name="04-06-collections" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -121,7 +71,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -140,8 +89,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.datetime_timedelta">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.data_structure">
+    <configuration name="data_structure" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCodes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tornado_mooc/chapter01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tornado_mooc/chapter01/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab/data_structure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="count_words" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="timing_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCodes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uda_nlp/intro_to_nlp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uda_nlp/intro_to_nlp/count_words.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab/timing_code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="datetime_date" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="vector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCodes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100days-of-code-with-python/01-03-datetimes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/udaLinear" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100days-of-code-with-python/01-03-datetimes/datetime_date.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/udaLinear/vector.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,49 +153,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="datetime_timedelta" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyCodes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100days-of-code-with-python/01-03-datetimes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100days-of-code-with-python/01-03-datetimes/datetime_timedelta.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in count_words.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_classfifier.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PyCodes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uda_nlp/intro_to_nlp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/uda_nlp/intro_to_nlp/count_words.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab/test_classfifier.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.datetime_timedelta" />
-        <item itemvalue="Python.datetime_date" />
-        <item itemvalue="Python.count_words" />
-        <item itemvalue="Python tests.pytest in count_words.py" />
-        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.data_structure" />
+        <item itemvalue="Python tests.pytest in test_classfifier.py" />
+        <item itemvalue="Python.timing_code" />
+        <item itemvalue="Python.vector" />
       </list>
     </recent_temporary>
   </component>
@@ -267,24 +194,6 @@
     <history-entry file="pytest_in_test_classfifier_py - 2019.04.25 at 17h 45m 56s.xml">
       <configuration name="pytest in test_classfifier.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_count_words_py - 2019.05.13 at 13h 55m 19s.xml">
-      <configuration name="pytest in count_words.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_count_words_py - 2019.05.13 at 13h 55m 42s.xml">
-      <configuration name="pytest in count_words.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_count_words_py - 2019.05.13 at 13h 55m 58s.xml">
-      <configuration name="pytest in count_words.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_count_words_py - 2019.05.13 at 14h 01m 46s.xml">
-      <configuration name="pytest in count_words.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_count_words_py - 2019.05.13 at 14h 01m 50s.xml">
-      <configuration name="pytest in count_words.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_count_words_py - 2019.05.13 at 14h 02m 12s.xml">
-      <configuration name="pytest in count_words.py" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="1057" extended-state="0" />
@@ -294,7 +203,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32642487" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,6 +218,16 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/udaLinear/vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1473">
+          <caret line="168" column="37" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
+          <folding>
+            <element signature="e#46#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AI_Programming_with_Python/classify_images_lab/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -405,186 +324,6 @@
             <element signature="e#46#61#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../pyvms/blockChain/lib/python3.7/sre_compile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="763" selection-start-line="763" selection-end-line="763" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py3_native/Ch01.py" />
-    <entry file="file://$PROJECT_DIR$/udaLinear/vector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
-          <folding>
-            <element signature="e#46#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py3_native/Ch04_r6.py" />
-    <entry file="file://$PROJECT_DIR$/../../pyvms/blockChain/lib/python3.7/site-packages/wxpy/api/bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2955">
-          <caret line="206" column="8" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py3_native/ch04_r6_test.py" />
-    <entry file="file://$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/2_class_data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/sk_solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="e#46#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/sk_train_and_test_solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/numpy_solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="e#46#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_ml_nd009/part_1_ml_basics/pandas_csv_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wechat_robot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="e#46#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tornado_mooc/chapter01/__init__.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_nlp/text_processing/AIND-NLP/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_nlp/text_processing/AIND-NLP/sentiment_analysis.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_nlp/text_processing/AIND-NLP/text_processing.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_nlp/text_processing/AIND-NLP/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/july_finace/gpu_addr.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_nlp/intro_to_nlp/count_words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uda_nlp/intro_to_nlp/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="544" selection-start-column="544" selection-end-column="544" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/july_finace/class_docs/第二课资料/决策树规则挖掘.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/july_finace/class_docs/第一课资料/常用反欺诈特征.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/100days-of-code-with-python/01-03-datetimes/datetime_date.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="e#45#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/100days-of-code-with-python/01-03-datetimes/datetime_timedelta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="e#46#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/100days-of-code-with-python/04-06-collections/collections.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/100days-of-code-with-python/04-06-collections/movies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1073" />
       </provider>
     </entry>
   </component>
