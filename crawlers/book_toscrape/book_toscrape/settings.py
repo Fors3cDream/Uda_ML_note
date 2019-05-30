@@ -62,10 +62,16 @@ ROBOTSTXT_OBEY = True
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
+MONGODB_URI = "mongodb://localhost:27017/"
+MONGODB_NAME = 'scrapy_data'
+
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'book_toscrape.pipelines.BookToscrapePipeline': 300,
+   'book_toscrape.pipelines.BookPipeline': 320,
+   'book_toscrape.pipelines.DuplicatesPipeline': 350,
+   'book_toscrape.pipelines.MongoDBPipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -88,3 +94,7 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+FEED_EXPORT_FIELDS = ['Title', 'UPC', 'Review_rating','Product_Type', 'Price_excel_tax','Price_incl_tax','Tax','Availability','Review_num']
+FEED_EXPORTERS = {'excel':'book_toscrape.my_exporters.ExcelItemExporter'}
+

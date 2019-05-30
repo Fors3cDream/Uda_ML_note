@@ -7,12 +7,13 @@
 
 import scrapy
 
-
 class BookItem(scrapy.Item):
     Title = scrapy.Field()
     UPC = scrapy.Field()
+    Review_rating = scrapy.Field()
     Product_Type = scrapy.Field()
     Price_excel_tax = scrapy.Field()
     Price_incl_tax = scrapy.Field()
     Tax = scrapy.Field()
     Availability = scrapy.Field()
+    Review_num = scrapy.Field()
